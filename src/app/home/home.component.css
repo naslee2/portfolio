@@ -1,0 +1,241 @@
+.jumbotron{
+    height: 300px;
+    background-color: transparent;
+}
+
+.navbar{
+    background:transparent;
+    background-color: rgba(255, 255, 255, 0);
+    border-color:transparent;
+    margin-bottom:0px;
+    font-size:large;
+    transition-duration: 0.3s;
+    min-height: 59px;
+}
+
+.navbar-toggler {
+    border-color: silver;
+}
+
+.navbar.solid{
+    transition-duration: 0.3s;
+    background: white;
+    min-height: 59px;
+}
+
+.navbar-brand{
+    color: silver;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+.nav-link{
+    font-size: large;
+    transition-duration: 0.3s;
+    color:silver;
+}
+
+.navbar-brand.black{
+    color: cadetblue;
+    font-size: large;
+    transition: all ease 0.3s;
+}
+
+.nav-link.black{
+    font-size: large;
+    transition-duration: 0.3s;
+    color: black;
+}
+
+.rounded-circle{
+    max-width: 275px;
+}
+
+.name{
+    font-size: 80px;
+    color: white;
+    height: 120px;
+}
+ 
+.text-center{
+    padding-top: 100px;
+    height: 100%;
+}
+
+.linkedin_icon{
+    padding:10px;
+}
+
+.github_icon{
+    padding:10px;
+    width: 54.84px;
+}
+/*tags*/
+
+hr{
+    width: 150px;
+    height: 2px;
+    background-color: cadetblue;
+}
+
+h1{
+    color: white;
+    font-size: 8vw;
+}
+
+body, html{
+    background-color: black;
+    margin: 0px;
+}
+
+a:hover{
+    color: cadetblue!important;
+    text-decoration: none;
+}
+
+span{
+    display: block;
+    background-color: silver;
+    height: 3px;
+    width: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    left: 0;
+    opacity: 1;
+}
+
+button{
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 30px;
+    border: transparent;
+    width: auto;
+}
+button:hover{
+    cursor: pointer!important;
+}
+
+/*Div Sections*/
+.header1{
+    background-image: url("/assets/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.headerintro{
+    color: white;
+}
+
+#outer_name{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#inner_name{
+    margin: auto;
+}
+
+.intro{
+    height: 100%;
+    background-color: black;
+}
+.rounded-circle{
+    width: 240px;
+    height: 240px;
+}
+
+.p_intro1{
+    color: white;
+    font-size: 25px;
+}
+
+.p_intro2{
+    color: silver;
+    font-size: 16px;
+}
+
+.portfolioProjects{
+    width: auto;
+    height: auto;
+    background-color: silver;
+}
+
+.portfolio_square{
+    width: auto;
+    height: auto;
+}
+
+.portfolio_square img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.portfolio-box-caption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.portfolio-box-caption-content {
+    text-align: center;
+    vertical-align:bottom;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.contacts{
+    height: 450px;
+    background-color: white;
+}
+
+.p_contact1{
+    font-size: 30px;
+}
+
+.p_contact2{
+    font-size: 22px;
+}
+
+.contact_link{
+    color: black;
+}
+
+.fa-linkedin-square{
+    color: darkgray;
+}
+
+.fa-linkedin-square:hover{
+    color: lightblue;
+    transition: 0.3s ease-in-out; 
+}
+
+.fa-github{
+    color: darkgray;
+}
+
+
+.fa-github:hover{
+    color: lightblue;  
+    transition: 0.3s ease-in-out; 
+}
+
+
+
