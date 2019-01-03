@@ -118,6 +118,7 @@ button:hover{
 /*Div Sections*/
 .header1{
     background-image: url("assets/header1.jpg");
+    /* When in production mode, set url from "/thing/h1.jpg" to "thing/h1.jpg"*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,8 +203,9 @@ button:hover{
 }
 
 .contacts{
-    height: 450px;
+    height: auto;
     background-color: white;
+    padding-bottom: 20px;
 }
 
 .p_contact1{
